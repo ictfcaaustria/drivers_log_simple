@@ -24,7 +24,7 @@
         </ons-list>
       </ons-page>
     </ons-splitter-side>
-    <ons-splitter-content id="content" page="newlog.html"></ons-splitter-content>
+    <ons-splitter-content id="content" page="login.html"></ons-splitter-content>
   </ons-splitter>
 
   <template id="login.html">
@@ -104,10 +104,10 @@
         <p style="padding-top:4px"></p>
         <p><ons-input id="log_from" modifier="transparent" placeholder="From" type="string" float></ons-input></p>
         <p><ons-input id="log_to" modifier="underbar" placeholder="To" type="string" float></ons-input></p>
-        <p><label class="left">
+        <p style="display:flex; justify-content:"><label class="left">
           <ons-checkbox input-id="andback"></ons-checkbox>
         </label>
-        <label for="andback" class="center" style="padding-left:8px">... and back</label></p>
+        <label for="andback" class="center" style="padding-left:8px; flex:1; text-align:center">... and back</label></p>
         <p style="padding-top:4px"></p>
         <p><ons-input id="log_startingmilage" modifier="underbar" placeholder="Starting milage (km)" type="number" float></ons-input></p>
         <p><ons-input id="log_finishingmilage" modifier="underbar" placeholder="Finishing milage (km)" type="number" float></ons-input></p>
